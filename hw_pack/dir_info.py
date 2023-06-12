@@ -27,7 +27,7 @@ def save_to_json(info: dict, file_name: str):
 
 
 def save_to_csv(info: dict, file_name: str):
-    with open(file_name, "w", encoding="UTF-8") as f:
+    with open(file_name, "w", encoding="UTF-8", newline='') as f:
         csw_writer = csv.DictWriter(f, dialect='excel', quoting=csv.QUOTE_MINIMAL,
                                     fieldnames=[KEY_PARENT, KEY_NAME, KEY_SIZE, KEY_TYPE])
         csw_writer.writeheader()
@@ -56,7 +56,7 @@ def _dict_info(info: dict, list_info: list) -> list:
         KEY_SIZE: info.get(KEY_SIZE, 0)
     }
     list_info.append(csv_dict)
-    list_child = csv_dict.get(KEY_CHILD, None)
+    list_child = info.get(KEY_CHILD, None)
     if list_child is not None:
         for c in list_child:
             _dict_info(c, list_info)

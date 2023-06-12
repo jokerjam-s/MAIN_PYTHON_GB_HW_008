@@ -2,14 +2,20 @@
   "parent": "MAIN_PYTHON",
   "name": "MAIN_PYTHON_GB_HW_008",
   "type": "dir",
-  "size": 13396478,
+  "size": 13484418,
   "child": [
     {
       "parent": "MAIN_PYTHON_GB_HW_008",
       "name": ".git",
       "type": "dir",
-      "size": 33187,
+      "size": 71978,
       "child": [
+        {
+          "parent": ".git",
+          "name": "COMMIT_EDITMSG",
+          "size": 11,
+          "type": "file"
+        },
         {
           "parent": ".git",
           "name": "config",
@@ -117,7 +123,7 @@
         {
           "parent": ".git",
           "name": "index",
-          "size": 614,
+          "size": 2812,
           "type": "file"
         },
         {
@@ -138,30 +144,30 @@
           "parent": ".git",
           "name": "logs",
           "type": "dir",
-          "size": 648,
+          "size": 1145,
           "child": [
             {
               "parent": "logs",
               "name": "HEAD",
-              "size": 216,
+              "size": 383,
               "type": "file"
             },
             {
               "parent": "logs",
               "name": "refs",
               "type": "dir",
-              "size": 432,
+              "size": 762,
               "child": [
                 {
                   "parent": "refs",
                   "name": "heads",
                   "type": "dir",
-                  "size": 216,
+                  "size": 383,
                   "child": [
                     {
                       "parent": "heads",
                       "name": "main",
-                      "size": 216,
+                      "size": 383,
                       "type": "file"
                     }
                   ]
@@ -170,18 +176,24 @@
                   "parent": "refs",
                   "name": "remotes",
                   "type": "dir",
-                  "size": 216,
+                  "size": 379,
                   "child": [
                     {
                       "parent": "remotes",
                       "name": "origin",
                       "type": "dir",
-                      "size": 216,
+                      "size": 379,
                       "child": [
                         {
                           "parent": "origin",
                           "name": "HEAD",
                           "size": 216,
+                          "type": "file"
+                        },
+                        {
+                          "parent": "origin",
+                          "name": "main",
+                          "size": 163,
                           "type": "file"
                         }
                       ]
@@ -196,8 +208,148 @@
           "parent": ".git",
           "name": "objects",
           "type": "dir",
-          "size": 7581,
+          "size": 43625,
           "child": [
+            {
+              "parent": "objects",
+              "name": "01",
+              "type": "dir",
+              "size": 238,
+              "child": [
+                {
+                  "parent": "01",
+                  "name": "f87c1323b977a1f24d8dcfc744cfa1b6eb54d4",
+                  "size": 238,
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "parent": "objects",
+              "name": "08",
+              "type": "dir",
+              "size": 202,
+              "child": [
+                {
+                  "parent": "08",
+                  "name": "fe4fdc62eca386d4f2084f23bb14adbb4c4b91",
+                  "size": 202,
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "parent": "objects",
+              "name": "0e",
+              "type": "dir",
+              "size": 343,
+              "child": [
+                {
+                  "parent": "0e",
+                  "name": "fed1f92b91af039131f95d0da95a9544a1c8b3",
+                  "size": 343,
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "parent": "objects",
+              "name": "10",
+              "type": "dir",
+              "size": 142,
+              "child": [
+                {
+                  "parent": "10",
+                  "name": "5ce2da2d6447d11dfe32bfb846c3d5b199fc99",
+                  "size": 142,
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "parent": "objects",
+              "name": "13",
+              "type": "dir",
+              "size": 141,
+              "child": [
+                {
+                  "parent": "13",
+                  "name": "566b81b018ad684f3a35fee301741b2734c8f4",
+                  "size": 141,
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "parent": "objects",
+              "name": "15",
+              "type": "dir",
+              "size": 36,
+              "child": [
+                {
+                  "parent": "15",
+                  "name": "ad8284ce472f5d4169a3967c0ab1ce54b203e3",
+                  "size": 36,
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "parent": "objects",
+              "name": "17",
+              "type": "dir",
+              "size": 382,
+              "child": [
+                {
+                  "parent": "17",
+                  "name": "600a6b756effe7cff85d398e2487889f2bd58a",
+                  "size": 382,
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "parent": "objects",
+              "name": "29",
+              "type": "dir",
+              "size": 1321,
+              "child": [
+                {
+                  "parent": "29",
+                  "name": "78869a8ab8d2359ae0ff6a3ac9bc5033da13e2",
+                  "size": 1321,
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "parent": "objects",
+              "name": "2d",
+              "type": "dir",
+              "size": 11666,
+              "child": [
+                {
+                  "parent": "2d",
+                  "name": "cb2ec5f033ea6be6e5fd6f0520dce5a1982e7e",
+                  "size": 11666,
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "parent": "objects",
+              "name": "35",
+              "type": "dir",
+              "size": 140,
+              "child": [
+                {
+                  "parent": "35",
+                  "name": "eb1ddfbbc029bcab630581847471d7f238ec53",
+                  "size": 140,
+                  "type": "file"
+                }
+              ]
+            },
             {
               "parent": "objects",
               "name": "3f",
@@ -228,6 +380,138 @@
             },
             {
               "parent": "objects",
+              "name": "45",
+              "type": "dir",
+              "size": 26,
+              "child": [
+                {
+                  "parent": "45",
+                  "name": "b15b3980db21e0f2197158afbba13ba7400a70",
+                  "size": 26,
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "parent": "objects",
+              "name": "58",
+              "type": "dir",
+              "size": 255,
+              "child": [
+                {
+                  "parent": "58",
+                  "name": "58895508e305b80931024c1b87aa864ac880e5",
+                  "size": 255,
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "parent": "objects",
+              "name": "5c",
+              "type": "dir",
+              "size": 56,
+              "child": [
+                {
+                  "parent": "5c",
+                  "name": "6c3b02166ecccdb1f752edf6e91353f760501c",
+                  "size": 56,
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "parent": "objects",
+              "name": "6e",
+              "type": "dir",
+              "size": 189,
+              "child": [
+                {
+                  "parent": "6e",
+                  "name": "d2bf9ed1da1f69aec1e1d9bd68419846c591d9",
+                  "size": 189,
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "parent": "objects",
+              "name": "74",
+              "type": "dir",
+              "size": 235,
+              "child": [
+                {
+                  "parent": "74",
+                  "name": "d515a027de98657e9d3d5f0f1831882fd81374",
+                  "size": 235,
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "parent": "objects",
+              "name": "7e",
+              "type": "dir",
+              "size": 127,
+              "child": [
+                {
+                  "parent": "7e",
+                  "name": "3294d4baa88a2625402267aabe58f3399760d3",
+                  "size": 127,
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "parent": "objects",
+              "name": "97",
+              "type": "dir",
+              "size": 66,
+              "child": [
+                {
+                  "parent": "97",
+                  "name": "824ec9b0149e48c91dce4fee530335b327c686",
+                  "size": 66,
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "parent": "objects",
+              "name": "b5",
+              "type": "dir",
+              "size": 70,
+              "child": [
+                {
+                  "parent": "b5",
+                  "name": "7793e0636704edc5cc39c7fa2b63b52f201c27",
+                  "size": 40,
+                  "type": "file"
+                },
+                {
+                  "parent": "b5",
+                  "name": "c4a36dea2906bf00a7c06c50153b15b52ce244",
+                  "size": 30,
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "parent": "objects",
+              "name": "c4",
+              "type": "dir",
+              "size": 186,
+              "child": [
+                {
+                  "parent": "c4",
+                  "name": "98b83a60473d818791aaf85aa7431577149826",
+                  "size": 186,
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "parent": "objects",
               "name": "ca",
               "type": "dir",
               "size": 905,
@@ -242,6 +526,48 @@
             },
             {
               "parent": "objects",
+              "name": "d0",
+              "type": "dir",
+              "size": 513,
+              "child": [
+                {
+                  "parent": "d0",
+                  "name": "c53b8907e4c8107cbd4ea5e6b6fa50f4509477",
+                  "size": 513,
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "parent": "objects",
+              "name": "de",
+              "type": "dir",
+              "size": 171,
+              "child": [
+                {
+                  "parent": "de",
+                  "name": "a7a424654188eee02b83e1572043f26d920a8d",
+                  "size": 171,
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "parent": "objects",
+              "name": "df",
+              "type": "dir",
+              "size": 21,
+              "child": [
+                {
+                  "parent": "df",
+                  "name": "8ee4d5ea94052f8e28cfa6c946ed21c27e3960",
+                  "size": 21,
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "parent": "objects",
               "name": "e6",
               "type": "dir",
               "size": 15,
@@ -250,6 +576,20 @@
                   "parent": "e6",
                   "name": "9de29bb2d1d6434b8b29ae775ad8c2e48c5391",
                   "size": 15,
+                  "type": "file"
+                }
+              ]
+            },
+            {
+              "parent": "objects",
+              "name": "f9",
+              "type": "dir",
+              "size": 19518,
+              "child": [
+                {
+                  "parent": "f9",
+                  "name": "ecf467d964c779254c3aae62c0fad59786bc2f",
+                  "size": 19518,
                   "type": "file"
                 }
               ]
@@ -293,7 +633,7 @@
           "parent": ".git",
           "name": "refs",
           "type": "dir",
-          "size": 71,
+          "size": 112,
           "child": [
             {
               "parent": "refs",
@@ -313,18 +653,24 @@
               "parent": "refs",
               "name": "remotes",
               "type": "dir",
-              "size": 30,
+              "size": 71,
               "child": [
                 {
                   "parent": "remotes",
                   "name": "origin",
                   "type": "dir",
-                  "size": 30,
+                  "size": 71,
                   "child": [
                     {
                       "parent": "origin",
                       "name": "HEAD",
                       "size": 30,
+                      "type": "file"
+                    },
+                    {
+                      "parent": "origin",
+                      "name": "main",
+                      "size": 41,
                       "type": "file"
                     }
                   ]
@@ -352,7 +698,7 @@
       "parent": "MAIN_PYTHON_GB_HW_008",
       "name": ".idea",
       "type": "dir",
-      "size": 10369,
+      "size": 10422,
       "child": [
         {
           "parent": ".idea",
@@ -395,7 +741,7 @@
         {
           "parent": ".idea",
           "name": "vcs.xml",
-          "size": 172,
+          "size": 225,
           "type": "file"
         },
         {
@@ -519,12 +865,12 @@
       "parent": "MAIN_PYTHON_GB_HW_008",
       "name": "hw_pack",
       "type": "dir",
-      "size": 9185,
+      "size": 9209,
       "child": [
         {
           "parent": "hw_pack",
           "name": "dir_info.py",
-          "size": 3123,
+          "size": 3131,
           "type": "file"
         },
         {
@@ -543,12 +889,12 @@
           "parent": "hw_pack",
           "name": "__pycache__",
           "type": "dir",
-          "size": 2685,
+          "size": 2701,
           "child": [
             {
               "parent": "__pycache__",
               "name": "dir_info.cpython-310.pyc",
-              "size": 2524,
+              "size": 2540,
               "type": "file"
             },
             {
@@ -570,19 +916,19 @@
     {
       "parent": "MAIN_PYTHON_GB_HW_008",
       "name": "info.csv",
-      "size": 73,
+      "size": 36611,
       "type": "file"
     },
     {
       "parent": "MAIN_PYTHON_GB_HW_008",
       "name": "info.json",
-      "size": 258480,
+      "size": 268577,
       "type": "file"
     },
     {
       "parent": "MAIN_PYTHON_GB_HW_008",
       "name": "info.pcl",
-      "size": 37955,
+      "size": 40392,
       "type": "file"
     },
     {
